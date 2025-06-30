@@ -11,3 +11,7 @@ class TestSimpleMath(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+ @staticmethod
+    def soustraction(a, b):
+        """Soustrait deux nombres."""
+        return a - b
