@@ -8,3 +8,7 @@ class SimpleMath:
         """Additionne deux nombres."""
         return a + b
 
+ @staticmethod
+    def soustraction(a, b):
+        """Soustrait deux nombres."""
+        return a - b
